@@ -1,5 +1,5 @@
 
-package questions;
+package A1_98867518;
 
 import java.util.Scanner;
 
