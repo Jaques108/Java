@@ -9,7 +9,7 @@ public class Q3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter time: ");
         int time = scanner.nextInt();
-        double distance = 9.81 * Math.pow((double)time, (double)2.0F) / (double)2.0F;
+        double distance = g * Math.pow(time,2) / 2;
         System.out.println("Distance is: " + distance + " Meters");
     }
 }
